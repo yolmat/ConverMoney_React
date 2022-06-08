@@ -1,7 +1,7 @@
 import React from "react";
-import RealImg from "../assets/img/Real.svg"
-import DolarReal from "../assets/img/Dolar.svg"
-import Arrow from "../assets/img/arrowDown.svg"
+import RealImg from "../assets/Real.svg"
+import DolarReal from "../assets/Dolar.svg"
+import Arrow from "../assets/arrowDown.svg"
 
 function Convert() {
   return (
