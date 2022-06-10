@@ -2,7 +2,7 @@ import React from "react";
 import RealImg from "../assets/Real.svg"
 import DolarReal from "../assets/Dolar.svg"
 import Arrow from "../assets/arrowDown.svg"
-import { Container, Body, Header, H1, Main, Label, Select, Option, Input, Button } from "./style.js"
+import { Container, Body, Header, H1, Main, Label, Select, Option, Input, Button, Section, Article, ImgMoney, PMoney, PValue, ArrowImg } from "./style.js"
 
 function Convert() {
   return (
@@ -39,23 +39,23 @@ function Convert() {
 
           <Button type="button">Converter</Button>
 
-          <section>
+          <Section>
 
-            <article>
-              <img src={RealImg}></img>
-              <p>Real</p>
-              <p>R$ 0,00</p>
-            </article>
+            <Article>
+              <ImgMoney src={RealImg}></ImgMoney>
+              <PMoney>Real</PMoney>
+              <PValue>R$ 0,00</PValue>
+            </Article>
 
-            <img src={Arrow}></img>
+            <ArrowImg src={Arrow}></ArrowImg>
 
-            <article>
-              <img src={DolarReal}></img>
-              <p>Dolar</p>
-              <p>$ 0,00</p>
-            </article>
+            <Article>
+              <ImgMoney src={DolarReal}></ImgMoney>
+              <PMoney>Dolar</PMoney>
+              <PValue>$ 0,00</PValue>
+            </Article>
 
-          </section>
+          </Section>
         </Main>
 
       </Container>
